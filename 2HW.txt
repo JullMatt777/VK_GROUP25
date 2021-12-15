@@ -1,0 +1,172 @@
+
+
+
+Как отправить ДЗ на проверку.
+ 1. Создайте текстоовый файл как в первом ДЗ по Terminal.
+ 2. Сценарий перенесите в этот файл.
+ 3. На против каждого действия - напишите команду в GitBash
+
+Файл со сценарием и ссылку на свой гит хаб отправляйте менторам на проверку.
+
+JSON
+ 4. Создать внешний репозиторий c названием JSON.
+ 5. Клонировать репозиторий JSON на локальный компьютер.: 
+git clone https://github.com/JullMatt777/Json.git
+ 6. Внутри локального JSON создать файл “new.json”.: touch new.json
+ 7. Добавить файл под гит.: git add
+ 8. Закоммитить файл.: git commit -m "new.json"
+ 9. Отправить файл на внешний GitHub репозиторий.: git push
+ 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON. :
+{
+        "first_name": "Jullia",
+        "last_name": "Matyak",
+        "age": 40,
+        "number of pets": 2,
+        "future desired salary ($)": 1500
+}
+ 11. Отправить изменения на внешний репозиторий: git add . > git commit -m "modified: new.json" > git push
+ 12. Создать файл preferences.json: touch preferences.json
+ 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.:
+vim preferences.json
+i
+{
+        "favorite movie": "Independence day" ,
+        "favorite TV series": "Harry Potter" ,
+        "favorite food": "sushi" ,
+        "favorite time of the year": "summer" ,
+        "the country I wont to visit": "India"
+}
+Esc
+:wq
+ 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON: 
+vim sklls.json
+i
+{
+        "theory": " Basic theory (What is testing, bug reports, documentation, types, methods, directions of testing, etc.) SDLC, STLC" ,
+        "client-server architecture": "client-server architecture" ,
+        "Methods of requests to the server": "Methods of requests to the server" ,
+        "Server responses": "Server responses" ,
+        "Structures of requests and responses": "Structures of requests and responses" ,
+        "JSON, XML": "What is JSON, XML. Their structure" ,
+        "API testing": "API testing" ,
+        "Removing and reading logs": "Removing and reading logs" ,
+        "Postman, Fidler": "Postman, Fidler" ,
+        "VPN": "(How it works, why it is needed, how to use, tool options" ,
+        "Dev Tools of web browsers (Google Chrome, FireFox)": "Dev Tools of web browsers (Google Chrome, FireFox)" ,
+        "Mobile testing": " Mobile testing" ,
+        "Feature of iOS, Android, guidelines": "Feature of iOS, Android, guidelines" ,
+        "Building iOS apps on XCode": "Building iOS apps on XCode" ,
+        "Building Android apps on Android Studio": "Building Android apps on Android Studio" ,
+        "Interception of mobile traffic (sniffing) via Charles": "Interception of mobile traffic (sniffing) via Charles" ,
+        "Proxy settings on iOS and Android": "Proxy settings on iOS and Android" ,
+        "Command line (terminal) Linux Ubuntu. Copying, creating, viewing, moving files on servers without a graphical interface": "Command line (terminal) Linux Ubuntu. Copying, creating, viewing, moving files on servers without a graphical interface" ,
+        "Simple bash scripting, automation of routine tasks on the server": "Simple bash scripting, automation of routine tasks on the server" ,
+        "Access to remote servers": "Access to remote servers" ,
+        "SQL Basics (Create, Delete, Drop, Insert Into, Select, From, Where, Join": "SQL Basics (Create, Delete, Drop, Insert Into, Select, From, Where, Join" ,
+        "Git": "Git" ,
+        "Jmeter": "Jmeter" ,
+        "Scrum Development Methodology": "Scrum Development Methodology" ,
+        "Python. Creating your own client-server application": "Python. Creating your own client-server application"
+}
+Esc 
+:wq
+ 15. Отправить сразу 2 файла на внешний репозиторий. 
+git add . > git commit -m "preferences.json sklls.json" > git push
+ 16. На веб интерфейсе создать файл bug_report.json.:
+add file > cread file > bug_report.json
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе. Commit new file (comment) > Commit new file (button)
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.: 
+{
+    "bug report": "bug_report"
+}
+Commit changes
+new
+)
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.: Commit changes (button
+ 20. Синхронизировать внешний и локальный репозиторий JSON: git pull
+
+
+XML
+ 21. Создать внешний репозиторий c названием XML.: 
+ 22. Клонировать репозиторий XML на локальный компьютер.:
+git clone https://github.com/JullMatt777/XML
+ 23. Внутри локального XML создать файл “new.xml”.: touch new.xml
+ 24. Добавить файл под гит: git add .
+ 25. Закоммитить файл.: git commit -m "new.xml"
+ 26. Отправить файл на внешний GitHub репозиторий.: git push
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+ 
+vim new.xml > i
+ 
+ <?xml version=" 1.0 " encoding="utf-8"?>
+ <FIRST_NAME>Jullia</FIRST_NAME>
+ <LAST_NAME>Matyak</LAST_NAME>
+ <AGE>40</AGE>
+ <NUMBER_OF_PETS>2</NUMBER_OF_PETS>
+ <FUTURE_DESIRED_SALARY $>1500</FUTURE_DESIRED_SALARY $>
+ 
+Esc > :wq
+
+ 28. Отправить изменения на внешний репозиторий.
+git add .
+git commit -m " modified: new.xml"
+git push
+ 29. Создать файл preferences.xml
+touch preferences.xml
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+
+vim preferences.xml > i
+ 
+<?xml version=" 1.0 " encoding="utf-8"?>
+<FAVORITE MOVIE>Independence day</FAVORITE MOVIE>
+<FAVORITE TV SERIES>Harry Potter</FAVORITE TV SERIES>
+<FAVORITE FOOD>sushi</FAVORITE FOOD>
+<FAVORITE TIME OF THE YEAR>summer</FAVORITE TIME OF THE YEAR>
+<THE COUNTRY I WONT TO VISIT>India</THE COUNTRY I WONT TO VISIT>
+
+Esc > :wq
+
+31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+ 
+vim new.xml > i
+ 
+ <?xml version=" 1.0 " encoding="utf-8"?>
+<THEORY> Базовая теория (Что такое тестирование, багрепорты, документация, виды, методы, направления тестирования и т.п.) SDLC, STLC</THEORY>
+<CLIENT-SERVER ARCHITECTURE> Что такое клиент серверная архитектура. </CLIENT-SERVER ARCHITECTURE>
+<METHODS OF REQUESTS TO THE SERVER> Методы запросов на сервер. </METHODS OF REQUESTS TO THE SERVER>
+<SERVER RESPONSES> Ответы сервера. </SERVER RESPONSES>
+<STRUCTURES OF RECQUESTS AND  RESPONSES> Структуры запросов и ответов. </STRUCTURES OF RECQUESTS AND  RESPONSES>
+<JSON XML> Что такое JSON, XML. Их структура. </JSON XML>
+<API TESTING> Тестирование API. </API TESTING>
+<REMOVING AND READING LOGS> Снятие и чтение логов. </REMOVING AND READING LOGS>
+<POSTMAN FIDLER> Postman, Fidler. </POSTMAN FIDLER>
+<VPN> VPN. (Как работает, зачем нужен, как использовать, варианты инструментов) </VPN>
+<DEV TOOLS OF WEB BROWSERS> Dev Tools веб браузеров (Google Chrome, FireFox). </DEV TOOLS OF WEB BROWSERS>
+<MOBILE TESTING> Мобильное тестирование. </MOBILE TESTING>
+<FEATURE OF IOS ANDROID> Особенность iOS, Android, гайдлайны. </FEATURE OF IOS ANDROID>
+<BUILDING IOS APPS ON XCODE> Сборка iOS приложений на XCode </BUILDING IOS APPS ON XCODE>
+<BUILDING ANDROID APPS ON ANDROID STUDIO> Сборка Android приложений на Android Studio
+ </BUILDING ANDROID APPS ON ANDROID STUDIO>
+<CHARLES> Перехват мобильного трафика (сниффинг) через Charles </CHARLES>
+<PROXY SETTINGS JN IOS AND ANDROID> Настройка прокси на iOS и Android. </PROXY SETTINGS JN IOS AND ANDROID>
+<LINUX TERMINAL> Командная строка (terminal) Linux Ubuntu. Копирование, создание, просмотр, перемещение файлов на серверах без графического интерфейса. </LINUX TERMINAL>
+<SIMPLE BASH SCRIPTING, AUTOMATION OF ROUTENE TASKS ON THE SERVER> Простой bash скриптринг , автоматизация рутинных задач на сервере. </SIMPLE BASH SCRIPTING, AUTOMATION OF ROUTENE TASKS ON THE SERVER>
+<ACCESS TO REMOTE SERVERS> Доступ к удалённым серверам. </ACCESS TO REMOTE SERVERS>
+<SQL> Основы SQL (Create, Delete, Drop, Insert Into, Select, From, Where, Join)</SQL>
+<GIT> Git </GIT>
+<JMETER> Jmeter </JMETER>
+<SCRUM> Методология разработки Scrum </SCRUM>
+<PYTHON> Python. Создание собственного клиент-серверного приложения. </PYTHON>
+
+ 
+Esc > :wq
+
+
+32. Сделать коммит в одну строку.: git commit -am "modified: skills.xml"
+ 33. Отправить сразу 2 файла на внешний репозиторий.: git push
+ 34. На веб интерфейсе создать файл bug_report.xml.: add file > cread file > bug_report.xml
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.: Commit new file (comment) > Commit new file (button)
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.:
+<bug_report> bug_report </bug_report>
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.Commit new file (bug_report) > Commit new file (button)
+ 38. Синхронизировать внешний и локальный репозиторий XML: git pull
